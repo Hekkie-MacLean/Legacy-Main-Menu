@@ -541,7 +541,7 @@ class RscDisplayMain: RscStandardDisplay
 		};
 		class ButtonVirtualArsenal: RscButtonMenu
 		{
-			onbuttonclick = "if (isClass (configFile >> 'CfgPatches' >> 'ace_arsenal')) then {playMission ['','\z\ace\addons\arsenal\missions\Arsenal.VR']} else {playMission['','\A3\Missions_F_Bootcamp\Scenarios\Arsenal.VR']}";
+			onbuttonclick = "if (isClass (configFile >> 'CfgPatches' >> 'ace_arsenal')) then {playMission['','\A3\Missions_F_Bootcamp\Scenarios\Arsenal.VR']} else {playMission['','\A3\Missions_F_Bootcamp\Scenarios\Arsenal.VR']}";
 			idc = 2421;
 			text = "$STR_A3_RscDisplayMain_ButtonVirtualArsenal";
 			x = "2 * 			(			((safezoneW / safezoneH) min 1.2) / 40) + 			(safezoneX)";
